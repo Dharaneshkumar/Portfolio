@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.icon" type="image/x-icon">
+</head>
+<body>
+    <div class="header-menu">
+        <header>
+            <h1>Port<span class="logo">folio</span></h1>
+            <nav>
+                <ul>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#skills">Skills</a></li>
+                     <li><a href="#projects">Projects</a></li>
+                     <li><a href="#contacts">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section>
+        <div class="container">
+            <div class="left">
+                <h1>HI, I'm <span class="sub">Dharanesh Kumar S</span></h1>
+                <h1 class="role">I'm a <span class="role-text"></span><label for=""></label></h1>
+                <p>I'm a passionate Frontend Developer with a knack for creating stunning and user-friendly web applications. I love turning ideas into reality through code. With a strong foundation, I strive to deliver high-quality work that meets the needs of users and clients alike. When I'm not coding, you can find me exploring new technologies, reading tech blogs, or working on personal projects to enhance my skills.</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/dharaneshkumar-sirigiri-6271b924b/" target="_blank" aria-label="LinkedIn">
+                        <img src="https://static-00.iconduck.com/assets.00/linkedin-round-icon-1024x1024-jq53tnfh.png" alt="LinkedIn icon">
+                    </a>
+                    <a href="https://github.com/Dharaneshkumar" target="_blank" aria-label="GitHub">
+                        <img src="https://static-00.iconduck.com/assets.00/github-code-source-icon-1024x1024-2abx47co.png" alt="GitHub icon">
+                    </a>
+                    <a href="https://www.instagram.com/s_dharaneshkumar/" target="_blank" aria-label="Instagram">
+                        <img src="https://4.bp.blogspot.com/-tt7LkKVEh4Q/XE9KoE7qDyI/AAAAAAAAHc4/WtyfY5iA-doY2BIQ27eQiTnqQwCbd6g0QCK4BGAYYCw/s1600/Logo%2BInstagram%2BVector.png" alt="Instagram icon">
+                    </a>
+                    <a href="https://www.facebook.com/sdharaneshkumar.sdharanesh" target="_blank" aria-label="Facebook">
+                        <img src="https://1.bp.blogspot.com/-S8HTBQqmfcs/XN0ACIRD9PI/AAAAAAAAAlo/FLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw/s1600/f_logo_RGB-Blue_1024.png" alt="Facebook icon">
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="image">
+                    <img src="https://images.hdqwalls.com/wallpapers/bthumb/izuku-midoriya-in-my-hero-academia-ex.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="total-skills">
+            <h1 class="skills">Skills</h1>
+        </div>
+        <div class="technical-skills">
+            <ul>
+                    <li class="html"></li>
+                    <li class="css"></li>
+                    <li class="javascript"></li>
+                    <li class="react"></li>
+                    <li class="mysql"></li>
+                    <li class="uiux"></li>
+                    <li class="git"></li>
+                    <li class="python"></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section>
+            <h2 class="projects">My Projects</h2>
+            <div class="project1" onclick="window.open('https://yourwebsite.com', '_blank')">
+                <h3 class="pp"></h3>
+        </div>
+        <div class="project2" onclick="window.open('https://dharaneshkumar.github.io/ChatBot/', '_blank')">
+            <h3 class="cb"></h3>
+        </div>
+        <div class="project3" onclick="window.open('https://hemanth-1508.github.io/RESUME-BUILDER/', '_blank')">
+            <h3 class="rb"></h3>
+        </div>
+
+    </section>
+
+   <section>
+    <h2 class="contact-heading">Contact Me</h2>
+    <form class="contact-form" action="https://formspree.io/f/mldnzvdl" method="POST">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <!-- Formspree hidden fields -->
+        <input type="hidden" name="_subject" value="New Hire Request from Portfolio">
+        <input type="text" name="_gotcha" style="display:none"> <!-- Anti-spam -->
+        <button type="submit" class="contact-button">Hire Me</button>
+    </form>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
